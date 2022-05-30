@@ -13,6 +13,5 @@ test('create a player object', () => {
     expect(player.inventory).toEqual(
         expect.arrayContaining([expect.any(Object)])
     );
-    console.log(player.inventory);
 });
 
